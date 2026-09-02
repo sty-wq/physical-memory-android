@@ -1,0 +1,261 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://physical-memory.local/nlu_schema_v1.json",
+  "title": "Physical Memory NLU v1",
+  "oneOf": [
+    {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0"
+        },
+        "action": {
+          "const": "UPSERT_ITEM_INFO"
+        },
+        "item": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 80
+        },
+        "location": {
+          "oneOf": [
+            {
+              "type": "object",
+              "properties": {
+                "op": {
+                  "const": "SET"
+                },
+                "value": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 200
+                }
+              },
+              "required": [
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "op": {
+                  "const": "KEEP"
+                },
+                "value": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "op",
+                "value"
+              ],
+              "additionalProperties": false
+            }
+          ]
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "MISSING_ITEM",
+              "MISSING_COUNT",
+              "INVALID_COUNT",
+              "INVALID_DATE",
+              "AMBIGUOUS_ITEM",
+              "AMBIGUOUS_LOCATION",
+              "AMBIGUOUS_DATE",
+              "UNSUPPORTED_OPERATION"
+            ]
+          },
+          "maxItems": 8,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schema_version",
+        "action",
+        "item",
+        "location",
+        "issues"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0"
+        },
+        "action": {
+          "const": "PROPOSE_ADD_UNITS"
+        },
+        "item": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 80
+        },
+        "count": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "unit_label": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 16
+        },
+        "location": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 200
+        },
+        "default_expiry": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+                },
+                "source_text": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "maxLength": 80
+                }
+              },
+              "required": [
+                "value",
+                "source_text"
+              ],
+              "additionalProperties": false
+            }
+          ]
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "MISSING_ITEM",
+              "MISSING_COUNT",
+              "INVALID_COUNT",
+              "INVALID_DATE",
+              "AMBIGUOUS_ITEM",
+              "AMBIGUOUS_LOCATION",
+              "AMBIGUOUS_DATE",
+              "UNSUPPORTED_OPERATION"
+            ]
+          },
+          "maxItems": 8,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schema_version",
+        "action",
+        "item",
+        "count",
+        "unit_label",
+        "location",
+        "default_expiry",
+        "issues"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0"
+        },
+        "action": {
+          "const": "OPEN_ITEM"
+        },
+        "item": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 80
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "MISSING_ITEM",
+              "MISSING_COUNT",
+              "INVALID_COUNT",
+              "INVALID_DATE",
+              "AMBIGUOUS_ITEM",
+              "AMBIGUOUS_LOCATION",
+              "AMBIGUOUS_DATE",
+              "UNSUPPORTED_OPERATION"
+            ]
+          },
+          "maxItems": 8,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schema_version",
+        "action",
+        "item",
+        "issues"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0"
+        },
+        "action": {
+          "const": "UNKNOWN"
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "MISSING_ITEM",
+              "MISSING_COUNT",
+              "INVALID_COUNT",
+              "INVALID_DATE",
+              "AMBIGUOUS_ITEM",
+              "AMBIGUOUS_LOCATION",
+              "AMBIGUOUS_DATE",
+              "UNSUPPORTED_OPERATION"
+            ]
+          },
+          "maxItems": 8,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schema_version",
+        "action",
+        "issues"
+      ],
+      "additionalProperties": false
+    }
+  ]
+}

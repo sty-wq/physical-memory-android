@@ -1,0 +1,2362 @@
+[
+  {
+    "id": "nlu-001",
+    "text": "R8放防潮箱",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "R8",
+      "location": {
+        "op": "SET",
+        "value": "防潮箱"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-002",
+    "text": "增加三袋牛奶",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "牛奶",
+      "count": 3,
+      "unit_label": "袋",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-003",
+    "text": "牛奶在哪",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "牛奶",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-004",
+    "text": "你好",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-005",
+    "text": "AD200在器材柜",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "AD200",
+      "location": {
+        "op": "SET",
+        "value": "器材柜"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-006",
+    "text": "增加三袋牛奶，明天过期",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "牛奶",
+      "count": 3,
+      "unit_label": "袋",
+      "location": null,
+      "default_expiry": {
+        "value": "2026-09-03",
+        "source_text": "明天"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-007",
+    "text": "我要删除牛奶",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "牛奶",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-008",
+    "text": "今天天气真好",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-009",
+    "text": "牛奶在桌子上",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "牛奶",
+      "location": {
+        "op": "SET",
+        "value": "桌子上"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-010",
+    "text": "买了一瓶可乐",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "可乐",
+      "count": 1,
+      "unit_label": "瓶",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-011",
+    "text": "牛奶少了一袋",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "牛奶",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-012",
+    "text": "打开微信",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-013",
+    "text": "我的钥匙放玄关柜",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "钥匙",
+      "location": {
+        "op": "SET",
+        "value": "玄关柜"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-014",
+    "text": "增加三袋牛奶放冰箱",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "牛奶",
+      "count": 3,
+      "unit_label": "袋",
+      "location": "冰箱",
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-015",
+    "text": "AD200还有吗",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "AD200",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-016",
+    "text": "播放音乐",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-017",
+    "text": "AD两百放器材柜",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "AD两百",
+      "location": {
+        "op": "SET",
+        "value": "器材柜"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-018",
+    "text": "新买两个苹果",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "苹果",
+      "count": 2,
+      "unit_label": "个",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-019",
+    "text": "牛奶什么时候过期",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "牛奶",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-020",
+    "text": "我饿了",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "calibration"
+  },
+  {
+    "id": "nlu-021",
+    "text": "R8在书桌上",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "R8",
+      "location": {
+        "op": "SET",
+        "value": "书桌上"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-022",
+    "text": "AD200放器材柜",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "AD200",
+      "location": {
+        "op": "SET",
+        "value": "器材柜"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-023",
+    "text": "牛奶在冰箱",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "牛奶",
+      "location": {
+        "op": "SET",
+        "value": "冰箱"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-024",
+    "text": "护照在书桌第二个抽屉",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "护照",
+      "location": {
+        "op": "SET",
+        "value": "书桌第二个抽屉"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-025",
+    "text": "移动硬盘放黑色背包里",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "移动硬盘",
+      "location": {
+        "op": "SET",
+        "value": "黑色背包里"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-026",
+    "text": "R8放在防潮箱",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "R8",
+      "location": {
+        "op": "SET",
+        "value": "防潮箱"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-027",
+    "text": "连花清瘟在放药的柜子里",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "连花清瘟",
+      "location": {
+        "op": "SET",
+        "value": "放药的柜子里"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-028",
+    "text": "莲花清瘟在药箱",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "莲花清瘟",
+      "location": {
+        "op": "SET",
+        "value": "药箱"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-029",
+    "text": "把相机电池放在充电盒",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "相机电池",
+      "location": {
+        "op": "SET",
+        "value": "充电盒"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-030",
+    "text": "我的护照在行李箱夹层",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "护照",
+      "location": {
+        "op": "SET",
+        "value": "行李箱夹层"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-031",
+    "text": "牙膏放浴室柜",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "牙膏",
+      "location": {
+        "op": "SET",
+        "value": "浴室柜"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-032",
+    "text": "纸巾在餐桌下",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "纸巾",
+      "location": {
+        "op": "SET",
+        "value": "餐桌下"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-033",
+    "text": "眼镜放床头柜",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "眼镜",
+      "location": {
+        "op": "SET",
+        "value": "床头柜"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-034",
+    "text": "雨伞放门后",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "雨伞",
+      "location": {
+        "op": "SET",
+        "value": "门后"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-035",
+    "text": "耳机在电脑包里",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "耳机",
+      "location": {
+        "op": "SET",
+        "value": "电脑包里"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-036",
+    "text": "充电器在卧室抽屉",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "充电器",
+      "location": {
+        "op": "SET",
+        "value": "卧室抽屉"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-037",
+    "text": "身份证放钱包里",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "身份证",
+      "location": {
+        "op": "SET",
+        "value": "钱包里"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-038",
+    "text": "书在书架最上层",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "书",
+      "location": {
+        "op": "SET",
+        "value": "书架最上层"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-039",
+    "text": "剪刀放厨房左边抽屉",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "剪刀",
+      "location": {
+        "op": "SET",
+        "value": "厨房左边抽屉"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-040",
+    "text": "胶带在工具箱",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "胶带",
+      "location": {
+        "op": "SET",
+        "value": "工具箱"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-041",
+    "text": "手电筒在鞋柜顶上",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "手电筒",
+      "location": {
+        "op": "SET",
+        "value": "鞋柜顶上"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-042",
+    "text": "备用钥匙放红色盒子",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "备用钥匙",
+      "location": {
+        "op": "SET",
+        "value": "红色盒子"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-043",
+    "text": "电脑放工作台",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "电脑",
+      "location": {
+        "op": "SET",
+        "value": "工作台"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-044",
+    "text": "XM5在床边",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "XM5",
+      "location": {
+        "op": "SET",
+        "value": "床边"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-045",
+    "text": "XM五放在背包",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "XM五",
+      "location": {
+        "op": "SET",
+        "value": "背包"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-046",
+    "text": "R吧放防潮箱",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "R吧",
+      "location": {
+        "op": "SET",
+        "value": "防潮箱"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-047",
+    "text": "七零到两百在摄影包",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "七零到两百",
+      "location": {
+        "op": "SET",
+        "value": "摄影包"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-048",
+    "text": "AD二百Pro放器材柜",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "AD二百Pro",
+      "location": {
+        "op": "SET",
+        "value": "器材柜"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-049",
+    "text": "SD卡在读卡器旁边",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "SD卡",
+      "location": {
+        "op": "SET",
+        "value": "读卡器旁边"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-050",
+    "text": "记录一下相机",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "相机",
+      "location": {
+        "op": "KEEP",
+        "value": null
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-051",
+    "text": "记住R8这个物品",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "R8",
+      "location": {
+        "op": "KEEP",
+        "value": null
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-052",
+    "text": "记一下牛奶",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "牛奶",
+      "location": {
+        "op": "KEEP",
+        "value": null
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-053",
+    "text": "保温杯放办公桌右侧",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "保温杯",
+      "location": {
+        "op": "SET",
+        "value": "办公桌右侧"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-054",
+    "text": "体温计在药箱第二层",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "体温计",
+      "location": {
+        "op": "SET",
+        "value": "药箱第二层"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-055",
+    "text": "螺丝刀在蓝色工具箱里",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UPSERT_ITEM_INFO",
+      "item": "螺丝刀",
+      "location": {
+        "op": "SET",
+        "value": "蓝色工具箱里"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-056",
+    "text": "刚买三袋牛奶",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "牛奶",
+      "count": 3,
+      "unit_label": "袋",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-057",
+    "text": "增加两盒药",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "药",
+      "count": 2,
+      "unit_label": "盒",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-058",
+    "text": "增加三袋牛奶放桌子上",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "牛奶",
+      "count": 3,
+      "unit_label": "袋",
+      "location": "桌子上",
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-059",
+    "text": "买了两包纸巾",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "纸巾",
+      "count": 2,
+      "unit_label": "包",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-060",
+    "text": "新买一支牙膏",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "牙膏",
+      "count": 1,
+      "unit_label": "支",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-061",
+    "text": "增加五节电池",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "电池",
+      "count": 5,
+      "unit_label": "节",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-062",
+    "text": "买入四个苹果",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "苹果",
+      "count": 4,
+      "unit_label": "个",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-063",
+    "text": "添加六瓶矿泉水",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "矿泉水",
+      "count": 6,
+      "unit_label": "瓶",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-064",
+    "text": "补充两袋大米",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "大米",
+      "count": 2,
+      "unit_label": "袋",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-065",
+    "text": "添了一盒鸡蛋",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "鸡蛋",
+      "count": 1,
+      "unit_label": "盒",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-066",
+    "text": "增加十包饼干",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "饼干",
+      "count": 10,
+      "unit_label": "包",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-067",
+    "text": "买了十二瓶可乐",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "可乐",
+      "count": 12,
+      "unit_label": "瓶",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-068",
+    "text": "添加2个相机电池",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "相机电池",
+      "count": 2,
+      "unit_label": "个",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-069",
+    "text": "新买3张SD卡",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "SD卡",
+      "count": 3,
+      "unit_label": "张",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-070",
+    "text": "增加一台AD200",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "AD200",
+      "count": 1,
+      "unit_label": "台",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-071",
+    "text": "买了一台R8放防潮箱",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "R8",
+      "count": 1,
+      "unit_label": "台",
+      "location": "防潮箱",
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-072",
+    "text": "增加一袋牛奶放桌子上",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "牛奶",
+      "count": 1,
+      "unit_label": "袋",
+      "location": "桌子上",
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-073",
+    "text": "增加两瓶洗发水放浴室柜",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "洗发水",
+      "count": 2,
+      "unit_label": "瓶",
+      "location": "浴室柜",
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-074",
+    "text": "新买四包纸巾放储物柜",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "纸巾",
+      "count": 4,
+      "unit_label": "包",
+      "location": "储物柜",
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-075",
+    "text": "刚买一个保温杯放办公室",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "保温杯",
+      "count": 1,
+      "unit_label": "个",
+      "location": "办公室",
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-076",
+    "text": "增加三盒口罩",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "口罩",
+      "count": 3,
+      "unit_label": "盒",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-077",
+    "text": "添加一卷保鲜膜",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "保鲜膜",
+      "count": 1,
+      "unit_label": "卷",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-078",
+    "text": "买了两支笔",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "笔",
+      "count": 2,
+      "unit_label": "支",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-079",
+    "text": "买了五本笔记本",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "笔记本",
+      "count": 5,
+      "unit_label": "本",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-080",
+    "text": "增加两根数据线",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "数据线",
+      "count": 2,
+      "unit_label": "根",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-081",
+    "text": "增加一台AD两百",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "AD两百",
+      "count": 1,
+      "unit_label": "台",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-082",
+    "text": "增加两副XM五",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "XM五",
+      "count": 2,
+      "unit_label": "副",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-083",
+    "text": "补充三罐咖啡",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "咖啡",
+      "count": 3,
+      "unit_label": "罐",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-084",
+    "text": "新增一瓶酱油放厨房柜",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "酱油",
+      "count": 1,
+      "unit_label": "瓶",
+      "location": "厨房柜",
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-085",
+    "text": "添加四个灯泡",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "灯泡",
+      "count": 4,
+      "unit_label": "个",
+      "location": null,
+      "default_expiry": null,
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-086",
+    "text": "增加两袋牛奶，后天过期",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "牛奶",
+      "count": 2,
+      "unit_label": "袋",
+      "location": null,
+      "default_expiry": {
+        "value": "2026-09-04",
+        "source_text": "后天"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-087",
+    "text": "增加一盒药，2026年12月31日过期",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "药",
+      "count": 1,
+      "unit_label": "盒",
+      "location": null,
+      "default_expiry": {
+        "value": "2026-12-31",
+        "source_text": "2026年12月31日"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-088",
+    "text": "买了两盒酸奶，9月5日到期",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "酸奶",
+      "count": 2,
+      "unit_label": "盒",
+      "location": null,
+      "default_expiry": {
+        "value": "2026-09-05",
+        "source_text": "9月5日"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-089",
+    "text": "添加三包面包，今天过期",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "面包",
+      "count": 3,
+      "unit_label": "包",
+      "location": null,
+      "default_expiry": {
+        "value": "2026-09-02",
+        "source_text": "今天"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-090",
+    "text": "增加两瓶牛奶，三天后过期",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "牛奶",
+      "count": 2,
+      "unit_label": "瓶",
+      "location": null,
+      "default_expiry": {
+        "value": "2026-09-05",
+        "source_text": "三天后"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-091",
+    "text": "新买一盒饼干，下周五过期",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "饼干",
+      "count": 1,
+      "unit_label": "盒",
+      "location": null,
+      "default_expiry": {
+        "value": "2026-09-11",
+        "source_text": "下周五"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-092",
+    "text": "增加两盒药，2027-01-01到期",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "药",
+      "count": 2,
+      "unit_label": "盒",
+      "location": null,
+      "default_expiry": {
+        "value": "2027-01-01",
+        "source_text": "2027-01-01"
+      },
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-093",
+    "text": "三袋牛奶，一袋后天过期，两袋下周五过期",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "牛奶",
+      "count": 3,
+      "unit_label": "袋",
+      "location": null,
+      "default_expiry": null,
+      "issues": [
+        "AMBIGUOUS_DATE"
+      ]
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-094",
+    "text": "牛奶还有多少",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "牛奶",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-095",
+    "text": "看看牛奶",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "牛奶",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-096",
+    "text": "打开牛奶",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "牛奶",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-097",
+    "text": "喝掉一袋牛奶",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "牛奶",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-098",
+    "text": "R8在哪",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "R8",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-099",
+    "text": "牛奶还有吗",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "牛奶",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-100",
+    "text": "牛奶放哪里了",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "牛奶",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-101",
+    "text": "帮我找钥匙",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "钥匙",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-102",
+    "text": "护照放哪了",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "护照",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-103",
+    "text": "相机电池有几块",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "相机电池",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-104",
+    "text": "纸巾还剩多少",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "纸巾",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-105",
+    "text": "牙膏什么时候到期",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "牙膏",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-106",
+    "text": "可乐在哪儿",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "可乐",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-107",
+    "text": "删除一瓶可乐",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "可乐",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-108",
+    "text": "我用了一节电池",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "电池",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-109",
+    "text": "我吃掉两个苹果",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "苹果",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-110",
+    "text": "我要删掉牙膏",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "牙膏",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-111",
+    "text": "把牛奶删掉",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "牛奶",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-112",
+    "text": "牛奶用完了",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "牛奶",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-113",
+    "text": "查看纸巾",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "纸巾",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-114",
+    "text": "看一下药的到期时间",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "药",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-115",
+    "text": "R吧在哪",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "R吧",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-116",
+    "text": "AD两百在哪",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "AD两百",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-117",
+    "text": "七零到两百还有吗",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "七零到两百",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-118",
+    "text": "XM五放哪里",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "XM五",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-119",
+    "text": "莲花清瘟在哪",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "莲花清瘟",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-120",
+    "text": "连花清瘟在哪",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "连花清瘟",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-121",
+    "text": "AD200还有几台",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "AD200",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-122",
+    "text": "删除R8",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "R8",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-123",
+    "text": "移动硬盘在哪",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "移动硬盘",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-124",
+    "text": "耳机找不到了",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "耳机",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-125",
+    "text": "我想看看保温杯",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "保温杯",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-126",
+    "text": "牛奶过期了吗",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "牛奶",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-127",
+    "text": "牛奶减一袋",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "牛奶",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-128",
+    "text": "拿走一个相机电池",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "相机电池",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-129",
+    "text": "打开护照记录",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "护照",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-130",
+    "text": "查询SD卡",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "SD卡",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-131",
+    "text": "列出牛奶库存",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "牛奶",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-132",
+    "text": "饼干什么时候过期",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "饼干",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-133",
+    "text": "口罩还剩几盒",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "OPEN_ITEM",
+      "item": "口罩",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-134",
+    "text": "谢谢",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-135",
+    "text": "再见",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-136",
+    "text": "你是谁",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-137",
+    "text": "给我讲个故事",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-138",
+    "text": "今天天气怎么样",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-139",
+    "text": "帮我打开支付宝",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-140",
+    "text": "我要听歌",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-141",
+    "text": "放一首音乐",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-142",
+    "text": "明天会下雨吗",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-143",
+    "text": "现在几点了",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-144",
+    "text": "我今天很开心",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-145",
+    "text": "导航到公司",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-146",
+    "text": "帮我打电话",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-147",
+    "text": "设置明天七点的闹钟",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-148",
+    "text": "请联网搜索新闻",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-149",
+    "text": "你好呀",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-150",
+    "text": "一加一等于几",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-151",
+    "text": "今天好累",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-152",
+    "text": "我的手机没电了",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-153",
+    "text": "请翻译这句话",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "UNKNOWN",
+      "issues": []
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-154",
+    "text": "增加牛奶",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "牛奶",
+      "count": null,
+      "unit_label": null,
+      "location": null,
+      "default_expiry": null,
+      "issues": [
+        "MISSING_COUNT"
+      ]
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  },
+  {
+    "id": "nlu-155",
+    "text": "增加零袋牛奶",
+    "current_date": "2026-09-02",
+    "expected": {
+      "schema_version": "1.0",
+      "action": "PROPOSE_ADD_UNITS",
+      "item": "牛奶",
+      "count": 0,
+      "unit_label": "袋",
+      "location": null,
+      "default_expiry": null,
+      "issues": [
+        "INVALID_COUNT"
+      ]
+    },
+    "source": "curated_synthetic",
+    "split": "evaluation"
+  }
+]

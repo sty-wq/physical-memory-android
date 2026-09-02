@@ -1,0 +1,32 @@
+[
+  {
+    "file": "sherpa-onnx-1.13.7.aar",
+    "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/v1.13.7/sherpa-onnx-1.13.7.aar",
+    "bytes": 49113869,
+    "sha256": "c4ef49e309f24fcee5c106b8a279481aaecaabb078cd37b2cd6e9a62cc8a73c8"
+  },
+  {
+    "file": "model.tar.bz2",
+    "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-streaming-zipformer-small-ctc-zh-int8-2025-04-01.tar.bz2",
+    "bytes": 21264113,
+    "sha256": "b3b309f7ce4a737195fcc6963ea19b0653a7d3401580af5ae0d3e284cbb71f0b"
+  },
+  {
+    "file": "aar-readme.md",
+    "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/v1.13.7/android/SherpaOnnxAar/README.md",
+    "bytes": 802,
+    "sha256": "4be346c8c80bf8d9a7d986d15d7487a3ab08c5e4f6da299df1db52fd662c733d"
+  },
+  {
+    "file": "ctc-models.rst",
+    "url": "https://raw.githubusercontent.com/k2-fsa/sherpa/master/docs/source/onnx/pretrained_models/online-ctc/zipformer-ctc-models.rst",
+    "bytes": 16963,
+    "sha256": "ca106aac56f86a8a9223a9c784a6485f51227b2a632e2f73b97cf9c1e95e086c"
+  },
+  {
+    "file": "model-readme.md",
+    "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-small-ctc-zh-int8-2025-04-01/resolve/a5f60fe00dcfbaf68fcc1c6b5cf53061e144d6da/README.md",
+    "bytes": 176,
+    "sha256": "07ccc659e8d02c2c7ecc05cfb3bc5c9f023ff39a6e62ed4dabe6ca6c492252ef"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/ggml-org/llama.cpp",
+  "tag": "v0.3.0",
+  "commit": "c1d0e7a004015f23bc0233470b747b596f29b264",
+  "license": "MIT",
+  "archive_sha256": "e381b23a9aba7e1615ef8d4713bc2f8d4777255a5b1124d633f0af280a2d5415"
+}

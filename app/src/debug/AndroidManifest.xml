@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <activity android:name=".V2ValidationActivity" android:exported="true" android:label="V2 隔离验证" />
+    </application>
+</manifest>

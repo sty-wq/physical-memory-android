@@ -1,0 +1,49 @@
+.gradle/
+.kotlin/
+**/build/
+local.properties
+.idea/
+*.iml
+**/.cxx/
+.DS_Store
+__pycache__/
+*.pyc
+
+# Machine-specific environment, credentials and signing keys
+/env.sh
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+key.properties
+
+# Restore downloaded build dependencies with scripts/setup-dependencies.py
+/third-party/llama.cpp/
+/app/libs/*.aar
+/app/src/main/assets/asr/
+/app/src/androidTest/assets/asr-fixture/
+
+# Application data, recordings, model weights and build artifacts
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.wav
+*.pcm
+*.apk
+*.aab
+*.onnx
+*.gguf
+*.safetensors
+*.tar
+*.tar.gz
+*.tar.bz2
+*.zip
+*.log
+/work/
+
+# Large official model archives and extracted deployment files
+models/*
+!models/qwen3-manifest.json

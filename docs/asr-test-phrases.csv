@@ -1,0 +1,10 @@
+referenceId,text,command,item,location
+1,钥匙放在玄关柜,STORE,钥匙,玄关柜
+2,护照放在卧室书桌第二个抽屉,STORE,护照,卧室书桌第二个抽屉
+3,相机电池放在相机包里面,STORE,相机电池,相机包里面
+4,SD卡放书桌上,STORE,SD卡,书桌上
+5,钥匙在哪,FIND,钥匙,
+6,护照在哪里,FIND,护照,
+7,相机电池在哪儿,FIND,相机电池,
+8,SD卡放哪了,FIND,SD卡,
+9,XM5放在防潮箱,STORE,XM5,防潮箱
